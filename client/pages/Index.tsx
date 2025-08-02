@@ -3,57 +3,36 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Users, Lightbulb, Target, BookOpen, Beaker, Cpu, Globe } from "lucide-react";
 import { Link } from "react-router-dom";
+import { HeroSection } from "@/components/HeroSection";
 
 export default function Index() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary via-blue-600 to-accent py-24 px-4 text-white overflow-hidden">
-        <div className="absolute inset-0 bg-black/10"></div>
-        <div className="relative max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-8">
-              <div className="space-y-4">
-                <Badge variant="secondary" className="bg-white/20 text-white border-white/30 hover:bg-white/30">
-                  Building Tomorrow's Innovators
-                </Badge>
-                <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
-                  Borostem
-                  <span className="block text-accent">Circle</span>
-                </h1>
-                <p className="text-xl lg:text-2xl text-white/90 leading-relaxed">
-                  Empowering communities through innovative STEM education and collaborative learning circles that inspire the next generation of problem-solvers.
-                </p>
-              </div>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-4">
-                  Join Our Circle
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4">
-                  Explore Programs
-                </Button>
-              </div>
-            </div>
-            <div className="relative">
-              <div className="grid grid-cols-2 gap-4">
-                <div className="space-y-4">
-                  <div className="h-32 bg-white/20 rounded-2xl backdrop-blur-sm flex items-center justify-center">
-                    <Cpu className="h-12 w-12 text-white" />
-                  </div>
-                  <div className="h-24 bg-accent/30 rounded-2xl backdrop-blur-sm flex items-center justify-center">
-                    <Beaker className="h-8 w-8 text-white" />
-                  </div>
-                </div>
-                <div className="space-y-4 pt-8">
-                  <div className="h-24 bg-white/30 rounded-2xl backdrop-blur-sm flex items-center justify-center">
-                    <Globe className="h-8 w-8 text-white" />
-                  </div>
-                  <div className="h-32 bg-accent/20 rounded-2xl backdrop-blur-sm flex items-center justify-center">
-                    <BookOpen className="h-12 w-12 text-white" />
-                  </div>
-                </div>
-              </div>
+      <HeroSection />
+
+      {/* Brand Section */}
+      <section className="relative bg-gradient-to-br from-primary via-blue-600 to-accent py-16 px-4 text-white">
+        <div className="relative max-w-7xl mx-auto text-center">
+          <div className="space-y-6">
+            <Badge variant="secondary" className="bg-white/20 text-white border-white/30 hover:bg-white/30">
+              Building Tomorrow's Innovators
+            </Badge>
+            <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
+              Borostem
+              <span className="block text-accent">Circle</span>
+            </h1>
+            <p className="text-lg lg:text-xl text-white/90 leading-relaxed max-w-3xl mx-auto">
+              Empowering communities through innovative STEM education and collaborative learning circles that inspire the next generation of problem-solvers.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+              <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-4">
+                Join Our Circle
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4">
+                Explore Programs
+              </Button>
             </div>
           </div>
         </div>
