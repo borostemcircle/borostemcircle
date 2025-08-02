@@ -3,10 +3,10 @@ export function HeroSection() {
     <section className="relative h-[540px] w-full overflow-hidden">
       {/* Background Image Layer */}
       <div className="absolute inset-0 bg-gray-800">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url("https://lh5.googleusercontent.com/g2nmws9aygwvsqpf3ewtq2nf4xbbquyyqizwzqsc0acld9jggxf8gpvqcs6x807p4jjdog3lgezskxagh68xxqfzwpwjhg6y9xsom3tefvhszrfd_bkknacqkhhjhassakadc0ip9fk=w16383")`
+            backgroundImage: `url("https://lh5.googleusercontent.com/g2nmws9aygwvsqpf3ewtq2nf4xbbquyyqizwzqsc0acld9jggxf8gpvqcs6x807p4jjdog3lgezskxagh68xxqfzwpwjhg6y9xsom3tefvhszrfd_bkknacqkhhjhassakadc0ip9fk=w16383")`,
           }}
         />
         {/* Overlay */}

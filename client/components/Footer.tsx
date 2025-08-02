@@ -20,7 +20,8 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Empowering communities through innovative STEM education and collaborative learning circles.
+              Empowering communities through innovative STEM education and
+              collaborative learning circles.
             </p>
           </div>
 
@@ -29,22 +30,34 @@ export function Footer() {
             <h4 className="font-semibold text-foreground">Quick Links</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/about" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  to="/about"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/programs" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  to="/programs"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   Programs
                 </Link>
               </li>
               <li>
-                <Link to="/community" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  to="/community"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   Community
                 </Link>
               </li>
               <li>
-                <Link to="/resources" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  to="/resources"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   Resources
                 </Link>
               </li>
@@ -56,22 +69,34 @@ export function Footer() {
             <h4 className="font-semibold text-foreground">Support</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/contact" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  to="/contact"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   Contact Us
                 </Link>
               </li>
               <li>
-                <Link to="/help" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  to="/help"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   Help Center
                 </Link>
               </li>
               <li>
-                <Link to="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  to="/privacy"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link to="/terms" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  to="/terms"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   Terms of Service
                 </Link>
               </li>

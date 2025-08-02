@@ -1,7 +1,22 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight, Users, Lightbulb, Target, BookOpen, Beaker, Cpu, Globe } from "lucide-react";
+import {
+  ArrowRight,
+  Users,
+  Lightbulb,
+  Target,
+  BookOpen,
+  Beaker,
+  Cpu,
+  Globe,
+} from "lucide-react";
 import { Link } from "react-router-dom";
 import { HeroSection } from "@/components/HeroSection";
 
@@ -15,7 +30,10 @@ export default function Index() {
       <section className="relative bg-gradient-to-br from-primary via-blue-600 to-accent py-16 px-4 text-white">
         <div className="relative max-w-7xl mx-auto text-center">
           <div className="space-y-6">
-            <Badge variant="secondary" className="bg-white/20 text-white border-white/30 hover:bg-white/30">
+            <Badge
+              variant="secondary"
+              className="bg-white/20 text-white border-white/30 hover:bg-white/30"
+            >
               Building Tomorrow's Innovators
             </Badge>
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
@@ -23,14 +41,23 @@ export default function Index() {
               <span className="block text-accent">Circle</span>
             </h1>
             <p className="text-lg lg:text-xl text-white/90 leading-relaxed max-w-3xl mx-auto">
-              Empowering communities through innovative STEM education and collaborative learning circles that inspire the next generation of problem-solvers.
+              Empowering communities through innovative STEM education and
+              collaborative learning circles that inspire the next generation of
+              problem-solvers.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-4">
+              <Button
+                size="lg"
+                className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-4"
+              >
                 Join Our Circle
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4">
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4"
+              >
                 Explore Programs
               </Button>
             </div>
@@ -42,12 +69,16 @@ export default function Index() {
       <section className="py-24 px-4 bg-secondary/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center space-y-6 mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold text-foreground">Our Mission</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold text-foreground">
+              Our Mission
+            </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Creating inclusive learning communities where curiosity thrives, innovation flourishes, and every learner discovers their potential in science, technology, engineering, and mathematics.
+              Creating inclusive learning communities where curiosity thrives,
+              innovation flourishes, and every learner discovers their potential
+              in science, technology, engineering, and mathematics.
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardHeader className="text-center">
@@ -58,7 +89,9 @@ export default function Index() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center text-base leading-relaxed">
-                  Building supportive learning circles where students, educators, and industry professionals collaborate to solve real-world challenges together.
+                  Building supportive learning circles where students,
+                  educators, and industry professionals collaborate to solve
+                  real-world challenges together.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -72,7 +105,9 @@ export default function Index() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center text-base leading-relaxed">
-                  Fostering creative thinking and hands-on experimentation through cutting-edge technology and project-based learning experiences.
+                  Fostering creative thinking and hands-on experimentation
+                  through cutting-edge technology and project-based learning
+                  experiences.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -86,7 +121,9 @@ export default function Index() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center text-base leading-relaxed">
-                  Measuring success through meaningful outcomes: student engagement, skill development, and positive community transformation.
+                  Measuring success through meaningful outcomes: student
+                  engagement, skill development, and positive community
+                  transformation.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -98,9 +135,12 @@ export default function Index() {
       <section className="py-24 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center space-y-6 mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold text-foreground">Our Programs</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold text-foreground">
+              Our Programs
+            </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Discover learning pathways designed to ignite curiosity, build skills, and create lasting impact in STEM fields.
+              Discover learning pathways designed to ignite curiosity, build
+              skills, and create lasting impact in STEM fields.
             </p>
           </div>
 
@@ -112,9 +152,13 @@ export default function Index() {
                     <span className="text-white font-bold">01</span>
                   </div>
                   <div>
-                    <h3 className="text-2xl font-semibold mb-2">Learning Circles</h3>
+                    <h3 className="text-2xl font-semibold mb-2">
+                      Learning Circles
+                    </h3>
                     <p className="text-muted-foreground leading-relaxed">
-                      Small group collaborative sessions where students explore STEM concepts through peer-to-peer learning and mentorship.
+                      Small group collaborative sessions where students explore
+                      STEM concepts through peer-to-peer learning and
+                      mentorship.
                     </p>
                   </div>
                 </div>
@@ -124,9 +168,13 @@ export default function Index() {
                     <span className="text-white font-bold">02</span>
                   </div>
                   <div>
-                    <h3 className="text-2xl font-semibold mb-2">Innovation Labs</h3>
+                    <h3 className="text-2xl font-semibold mb-2">
+                      Innovation Labs
+                    </h3>
                     <p className="text-muted-foreground leading-relaxed">
-                      Hands-on workshops and maker spaces equipped with cutting-edge technology for prototyping and experimentation.
+                      Hands-on workshops and maker spaces equipped with
+                      cutting-edge technology for prototyping and
+                      experimentation.
                     </p>
                   </div>
                 </div>
@@ -136,9 +184,13 @@ export default function Index() {
                     <span className="text-white font-bold">03</span>
                   </div>
                   <div>
-                    <h3 className="text-2xl font-semibold mb-2">Community Projects</h3>
+                    <h3 className="text-2xl font-semibold mb-2">
+                      Community Projects
+                    </h3>
                     <p className="text-muted-foreground leading-relaxed">
-                      Real-world problem-solving initiatives that connect classroom learning to local community needs and challenges.
+                      Real-world problem-solving initiatives that connect
+                      classroom learning to local community needs and
+                      challenges.
                     </p>
                   </div>
                 </div>
@@ -189,16 +241,27 @@ export default function Index() {
       {/* CTA Section */}
       <section className="py-24 px-4 bg-gradient-to-r from-primary via-blue-600 to-accent text-white">
         <div className="max-w-4xl mx-auto text-center space-y-8">
-          <h2 className="text-4xl lg:text-5xl font-bold">Ready to Join the Circle?</h2>
+          <h2 className="text-4xl lg:text-5xl font-bold">
+            Ready to Join the Circle?
+          </h2>
           <p className="text-xl leading-relaxed text-white/90">
-            Whether you're a student eager to explore, an educator looking to innovate, or a community member wanting to contribute, there's a place for you in our STEM circle.
+            Whether you're a student eager to explore, an educator looking to
+            innovate, or a community member wanting to contribute, there's a
+            place for you in our STEM circle.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-4">
+            <Button
+              size="lg"
+              className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-4"
+            >
               Get Started Today
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4">
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4"
+            >
               Learn More
             </Button>
           </div>
